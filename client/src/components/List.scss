@@ -1,0 +1,85 @@
+.List-Container {
+    
+}
+
+.List-Header {
+    margin-bottom: 6px;
+    font-size: 21px;
+}
+
+.List-Box {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    height: max-content;
+    border-radius: 10px;
+}
+
+.List-Item { 
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    padding: 0 10px;
+    margin: 0;
+    height: 70px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.List-Item-Image {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.List-Line {
+    margin: 0;
+    margin-left: 10px;
+    opacity: 30%;
+}
+
+.List-Item-Text {
+    margin-left: 8px;
+    display: flex;
+    align-items: normal;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.List-Item-Title {
+    margin: 0;
+    align-items: normal;
+    font-weight: 600;
+}
+
+.List-Item-Description {
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    color: lightgray;
+}
+
+.List-Item-TitleText {
+    display: flex;
+    justify-content: space-between;
+}
+
+.List-Item-Percent {
+    font-size: 12px;
+    margin-top: 3px;
+    padding: 0px 4px;
+    border-radius: 4px;
+    background: #F2F2F6;
+    opacity: 70%;
+    color: gray;
+}
+
+.List-Item-Arrow {
+    display: flex;
+    margin-top: 9px;
+    align-self: start;
+    color: lightgray;
+    width: 20px;
+    margin-left: 10px;
+}

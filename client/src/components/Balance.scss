@@ -1,0 +1,67 @@
+.Balance-Container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, minmax(80px, 1fr));
+    grid-gap: 10px;
+    font-size: 14px;
+}
+
+.Balance-box {
+    background: #fff;
+    position: relative;
+    border-radius: 10px;
+}
+
+.Balance-box-1 {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    grid-column: 1 / 2;
+    grid-row: 1;
+}
+
+.Balance-box-2 {
+    padding: 25px 10px;
+    grid-column: 1 / 2;
+    grid-row: 2;
+}
+
+.Balance-box-3 {
+    padding: 10px;
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+}
+
+.Balance-CardText {
+    font-weight: 500;
+}
+
+.Balance-CardBalanceValue {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.Balance-CardBalanceAvailable {
+    color: lightgray;
+    font-weight: 400;
+}
+
+.Balance-CardBalanceAvailable {
+    color: lightgray;
+}
+
+.Balance-Accept {
+    border-radius: 50%;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    background: #EEEEF0;
+    width: 50px;
+    height: 50px;
+}
+
+.Balance-Mark {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
